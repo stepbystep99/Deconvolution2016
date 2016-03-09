@@ -1,6 +1,8 @@
+# REVIEWER 1:
+
 > [1] The title is witty but unnecessary. The authors should be mindful that the journal is read by an international audience and a simple and straightforward title would be more appealing. 
 
-We are saddened to hear that Shakespeare's appeal is not international.
+We are saddened to hear that Shakespeare does not have international appeal.
 
 > [2] The authors provide a thorough and detailed description of the limitations provided by existing normalization methods - in particular DEseq2 and TMM. However, these methods were never designed with single cell data processing so although it is useful to briefly highlight their ineffectiveness with single cell zero count data, I am not sure the authors need to devote so much of the paper to its discussion. It takes nearly six pages and two figures before we reach the interesting bit which is their proposed method.
 
@@ -20,12 +22,12 @@ Of course, there may be alternative pooling arrangements that perform even bette
 > [4] The deconvolution method requires the solution of a linear system in which their as many equations as cells. Is this computationally problematic for studies involving very large cell numbers? The authors could comment on the computational demands of their method.
 
 This is a good point.
-The runtime and memory requirements increase quadratically with the number of cells, due to the increase in the size of the linear system.
+The linear system increases quadratically with the number of cells, while the QR decomposition itself seems to have 'O(n^3)' time complexity for 'n' cells.
 However, for large data sets, this can largely be mitigated by clustering and performing deconvolution within each cluster.
-For example, clustering is performed and each cluster is around 200 cells, the size of the linear system is capped at about 200 cells.
-Further increases in the number of cells will manifest as increasing numbers of clusters, for which the method is linear in runtime.
-Of course, the clustering step itself is quadratic with respect to the number of cells, but we expect that clustering of cells would be performed anyway as a routine part of the scRNA-seq data analysis -- so, no additional time is added to the analysis by normalization.
-We have added a description of this to the Supplementary Materials.
+For example, if clustering is performed and each cluster is around 200 cells, the size of each linear system (and associated memory/time requirements) will be capped at about 200 cells.
+Further increases in the number of cells will manifest as an increase to the number of clusters, for which the method is roughly linear in runtime depending on the size of each cluster.
+Of course, the clustering step itself is quadratic with respect to the number of cells, but we expect that clustering would be performed anyway as a routine part of the scRNA-seq data analysis -- so, no additional time is added to the analysis by normalization.
+We have added this reasoning to the Supplementary Materials and a plot of observed runtimes with respect to the number of cells.
 
 > [5] The authors use weighted least squares to give a point estimate of the size factors but the method would be much more powerful if uncertainty information could be computed and if this uncertainty could be propagated into downstream analysis.  
 
