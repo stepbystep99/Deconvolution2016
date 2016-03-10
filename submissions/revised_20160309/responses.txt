@@ -3,6 +3,8 @@
 > [1] The title is witty but unnecessary. The authors should be mindful that the journal is read by an international audience and a simple and straightforward title would be more appealing. 
 
 We are saddened to hear that Shakespeare does not have international appeal.
+A brief search of PubMed shows that there are 218 papers with some reference to this particular quote, so clearly, others disagree.
+In any case, we believe that our title is more relevant to the content of the article than that of other highly cited papers - Graur et al.'s 2013 article in Genome Biology and Evolution comes to mind.
 
 > [2] The authors provide a thorough and detailed description of the limitations provided by existing normalization methods - in particular DEseq2 and TMM. However, these methods were never designed with single cell data processing so although it is useful to briefly highlight their ineffectiveness with single cell zero count data, I am not sure the authors need to devote so much of the paper to its discussion. It takes nearly six pages and two figures before we reach the interesting bit which is their proposed method.
 
