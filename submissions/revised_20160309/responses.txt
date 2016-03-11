@@ -4,12 +4,12 @@
 
 We are saddened to hear that Shakespeare does not have international appeal.
 A brief search of PubMed shows that there are 218 papers with some reference to this particular quote, so clearly, others disagree.
-In any case, we believe that our title is more relevant to the content of the article than that of other highly cited papers - Graur et al.'s 2013 article in Genome Biology and Evolution comes to mind.
+Nonetheless, we have changed the title to something more sober.
 
 > [2] The authors provide a thorough and detailed description of the limitations provided by existing normalization methods - in particular DEseq2 and TMM. However, these methods were never designed with single cell data processing so although it is useful to briefly highlight their ineffectiveness with single cell zero count data, I am not sure the authors need to devote so much of the paper to its discussion. It takes nearly six pages and two figures before we reach the interesting bit which is their proposed method.
 
 It is true that DESeq2 and TMM normalization were not designed for single-cell data. 
-Regardless, many single-cell RNA-seq studies have continued to use these methods in their analysis piplines -- or even more simply, normalized by the total library size without considering the effect of DE.
+Regardless, many single-cell RNA-seq studies have continued to use these methods in their analysis piplines -- or even more simply, normalized by the total library size without considering the effect of DE on normalization accuracy.
 Examples of such studies include Saraiva et al. (2015), Kolodziejczyk et al. (2015), Li et al. (2015), Deng et al. (2014) and Freeman et al. (2015), and we have added these citations to the text.
 We feel that it is important to describe the limitations of these methods in depth, as their lack of accuracy will be relevant to the broader scRNA-seq data analysis community. 
 
@@ -40,20 +40,24 @@ Pipelines like DESeq2 and edgeR that are commonly applied on scRNA-seq data assu
 Similarly, monocle (a dedicated single-cell analysis method) requires normalized expression values as input, without any provision for the variability of the normalization procedure.
 In general, a holistic framework is required to incorporate uncertainty into downstream inferences, e.g., using a Bayesian model as described by Vallejos et al. (2015).
 This is not compatible with the majority of existing methods that are more modular.
-As such, while it is possible to extract standard errors from the linear system, we do not do so as we cannot forsee their use in real data analyses.
+Nevertheless, we have provided an option in the function to obtain standard errors from the linear system, and we have commented on this possibility in the manuscript.
 
 > [6] A major difficulty that the authors face is demonstrating the effectiveness of the method in real world analysis situations. The authors offer some anecdotal evidence based on the analysis of two single cell data sets but ultimately the conclusion is little more than a statement that different size factor estimates can lead to different DE gene lists. I think more needs to be done to show the strength of the method in real world scenarios even if this is only defined statistically. For example, random subsets of the data could be taken and the DE gene lists compared across subsets to identify the genes that overlap. Does the deconvolution method lead to more stable gene lists that consistently report the same DE genes? This is merely a suggestion but something beyond a statement that "these results suggest that the genes unique to deconvolution are more biologically relevant that those unique to library size normalization" is required to make the analysis more credible.
 
 We have added a simple GLM-based analysis to demonstrate the relative accuracy of the deconvolution method compared to other methods.
-We use one set of (log-)size factors as GLM offsets, while we use another set of size factors as a covariate in the model.
+We use the deconvolution (log-)size factors as GLM offsets, while we use another set of size factors from an existing method as a covariate in the model.
 We then fit a GLM to the counts for a homogenous set of cells in which no DE is expected (or at least, no DE correlated with the true size factors).
-Any biases in the offsets will lead to a systematic difference between the fitted values and the (true) mean -- to compensate, the estimated coefficient for the covariate term will become non-zero.
-Dropping the covariate will subsequently yield some DE genes.
-In contrast, if there are no biases in the offsets, there will be no systematic difference between the fitted value and the true mean.
-This means that the covariate term will remain at zero, resulting in fewer DE genes.
-We show that using deconvolution as an offset and each of the other methods as the covariate yields fewer DE genes than when the other methods are used as the offset and deconvolution is used as the covariate.
+The only systematic difference between cells in the group should be that due to cell-specific biases.
+If deconvolution is accurately estimating these biases, the offsets will fully recapitulate all of the differences in means between cells in the group. 
+Additional fitting from the covariate term is unnecessary, such that the corresponding coefficient will be zero. 
+This means that no DE genes will be detected upon dropping this covariate from the model. 
+On the other hand, if deconvolution is not accurate, the offsets alone will fail to recapitulate the differences in means.  
+To improve the fit, the estimated coefficient for the covariate term will become non-zero, such that more DE genes will be detected when the covariate is dropped.
+
+In real data sets, using deconvolution as an offset and each of the other methods as the covariate yields a few DE genes.
+However, when this is switched around (i.e., the other methods are used as the offset and deconvolution is used as the covariate), the number of DE genes increases signficantly.
 This suggests that deconvolution is indeed more accurate than the other methods.
-We have added this analysis to the Supplementary Materials.
+We have added a brief description of this analysis to the main text, and a full description with results to the Supplementary Materials.
 
 # REVIEWER 2:
 
@@ -81,6 +85,7 @@ Just after submission, we realized that our simulations were based on high-cover
 We have since rectified this -- the simulation design has been updated in the manuscript, and associated diagnostic plots are provided in the Supplementary Materials.
 We note that this modification does not affect our conclusions.
 In fact, the differences between normalization methods in Figures 1 and 4 are even more in favour of deconvolution with the updated simulations.
+The original simulations have been moved to the Supplementary Materials and represent the performance of the various methods on high-coverage data.
 
 > 4. The authors are very minimalistic in their approach to R software.  Sure, it is publicly available from github, but there should at least be a README that tells the user how to install the package and a vignette with some basic examples.  This is either sloppy or lazy.  For this kind of package (and these authors), surely Bioconductor submission is a minimum requirement.
 
