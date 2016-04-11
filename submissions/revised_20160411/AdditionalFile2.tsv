@@ -1,0 +1,201 @@
+GO.ID	Term	Annotated	Significant	Expected	Fisher.classic
+GO:0043603	cellular amide metabolic process	498	47	28.91	0.00057
+GO:0006518	peptide metabolic process	437	41	25.37	0.00144
+GO:0006414	translational elongation	31	7	1.8	0.00165
+GO:0043604	amide biosynthetic process	421	39	24.44	0.00236
+GO:0042129	regulation of T cell proliferation	33	7	1.92	0.00243
+GO:0031115	negative regulation of microtubule polymerization	11	4	0.64	0.00267
+GO:0043043	peptide biosynthetic process	383	36	22.23	0.00269
+GO:0006412	translation	374	35	21.71	0.00330
+GO:0006878	cellular copper ion homeostasis	12	4	0.7	0.00382
+GO:0055070	copper ion homeostasis	12	4	0.7	0.00382
+GO:0001954	positive regulation of cell-matrix adhesion	27	6	1.57	0.00386
+GO:0042311	vasodilation	28	6	1.63	0.00467
+GO:0044255	cellular lipid metabolic process	397	36	23.04	0.00486
+GO:1901566	organonitrogen compound biosynthetic process	655	54	38.02	0.00494
+GO:0050670	regulation of lymphocyte proliferation	48	8	2.79	0.00588
+GO:0042274	ribosomal small subunit biogenesis	39	7	2.26	0.00646
+GO:0031579	membrane raft organization	14	4	0.81	0.00704
+GO:0032944	regulation of mononuclear cell proliferation	50	8	2.9	0.00756
+GO:0043066	negative regulation of apoptotic process	426	37	24.73	0.00860
+GO:0031113	regulation of microtubule polymerization	23	5	1.34	0.00908
+GO:0071156	regulation of cell cycle arrest	23	5	1.34	0.00908
+GO:0050863	regulation of T cell activation	73	10	4.24	0.00910
+GO:0043516	regulation of DNA damage response, signal transduction by p53 class mediator	15	4	0.87	0.00916
+GO:0045785	positive regulation of cell adhesion	132	15	7.66	0.00935
+GO:0006643	membrane lipid metabolic process	85	11	4.93	0.00973
+GO:0043069	negative regulation of programmed cell death	431	37	25.02	0.01028
+GO:0070663	regulation of leukocyte proliferation	53	8	3.08	0.01072
+GO:0030330	DNA damage response, signal transduction by p53 class mediator	24	5	1.39	0.01094
+GO:0050870	positive regulation of T cell activation	43	7	2.5	0.01109
+GO:1903037	regulation of leukocyte cell-cell adhesion	76	10	4.41	0.01198
+GO:1903039	positive regulation of leukocyte cell-cell adhesion	44	7	2.55	0.01255
+GO:1901564	organonitrogen compound metabolic process	980	73	56.88	0.01354
+GO:0034112	positive regulation of homotypic cell-cell adhesion	45	7	2.61	0.01415
+GO:0046634	regulation of alpha-beta T cell activation	17	4	0.99	0.01457
+GO:0008654	phospholipid biosynthetic process	90	11	5.22	0.01465
+GO:0051249	regulation of lymphocyte activation	103	12	5.98	0.01582
+GO:0006448	regulation of translational elongation	10	3	0.58	0.01716
+GO:0007263	nitric oxide mediated signal transduction	10	3	0.58	0.01716
+GO:0030149	sphingolipid catabolic process	10	3	0.58	0.01716
+GO:0046466	membrane lipid catabolic process	10	3	0.58	0.01716
+GO:0002696	positive regulation of leukocyte activation	69	9	4.01	0.01763
+GO:0002694	regulation of leukocyte activation	117	13	6.79	0.01778
+GO:0042102	positive regulation of T cell proliferation	18	4	1.04	0.01789
+GO:0070613	regulation of protein processing	27	5	1.57	0.01802
+GO:0097006	regulation of plasma lipoprotein particle levels	27	5	1.57	0.01802
+GO:1903317	regulation of protein maturation	27	5	1.57	0.01802
+GO:0042493	response to drug	105	12	6.09	0.01820
+GO:0046785	microtubule polymerization	37	6	2.15	0.01857
+GO:0042098	T cell proliferation	48	7	2.79	0.01978
+GO:0046467	membrane lipid biosynthetic process	59	8	3.42	0.01984
+GO:0002456	T cell mediated immunity	19	4	1.1	0.02165
+GO:0050865	regulation of cell activation	133	14	7.72	0.02189
+GO:0042116	macrophage activation	11	3	0.64	0.02260
+GO:0043094	cellular metabolic compound salvage	11	3	0.64	0.02260
+GO:1903541	regulation of exosomal secretion	11	3	0.64	0.02260
+GO:1903543	positive regulation of exosomal secretion	11	3	0.64	0.02260
+GO:0034110	regulation of homotypic cell-cell adhesion	84	10	4.88	0.02301
+GO:0006644	phospholipid metabolic process	174	17	10.1	0.02404
+GO:0050727	regulation of inflammatory response	73	9	4.24	0.02466
+GO:0043009	chordate embryonic development	314	27	18.23	0.02563
+GO:0006506	GPI anchor biosynthetic process	20	4	1.16	0.02586
+GO:0019068	virion assembly	20	4	1.16	0.02586
+GO:0050867	positive regulation of cell activation	74	9	4.3	0.02669
+GO:0009792	embryo development ending in birth or egg hatching	316	27	18.34	0.02752
+GO:0019915	lipid storage	30	5	1.74	0.02759
+GO:0050671	positive regulation of lymphocyte proliferation	30	5	1.74	0.02759
+GO:0060548	negative regulation of cell death	478	38	27.74	0.02864
+GO:0006629	lipid metabolic process	523	41	30.36	0.02881
+GO:2001020	regulation of response to DNA damage stimulus	75	9	4.35	0.02883
+GO:0010955	negative regulation of protein processing	12	3	0.7	0.02886
+GO:0031571	mitotic G1 DNA damage checkpoint	12	3	0.7	0.02886
+GO:0046637	regulation of alpha-beta T cell differentiation	12	3	0.7	0.02886
+GO:0048265	response to pain	12	3	0.7	0.02886
+GO:1903318	negative regulation of protein maturation	12	3	0.7	0.02886
+GO:0006505	GPI anchor metabolic process	21	4	1.22	0.03052
+GO:0006979	response to oxidative stress	179	17	10.39	0.03059
+GO:0051251	positive regulation of lymphocyte activation	64	8	3.71	0.03084
+GO:0010811	positive regulation of cell-substrate adhesion	53	7	3.08	0.03236
+GO:0003018	vascular process in circulatory system	65	8	3.77	0.03346
+GO:0001952	regulation of cell-matrix adhesion	54	7	3.13	0.03540
+GO:0032946	positive regulation of mononuclear cell proliferation	32	5	1.86	0.03548
+GO:0042770	signal transduction in response to DNA damage	32	5	1.86	0.03548
+GO:0045669	positive regulation of osteoblast differentiation	32	5	1.86	0.03548
+GO:0002702	positive regulation of production of molecular mediator of immune response	13	3	0.75	0.03594
+GO:0008053	mitochondrial fusion	13	3	0.75	0.03594
+GO:0016226	iron-sulfur cluster assembly	13	3	0.75	0.03594
+GO:0031163	metallo-sulfur cluster assembly	13	3	0.75	0.03594
+GO:0043277	apoptotic cell clearance	13	3	0.75	0.03594
+GO:0044783	G1 DNA damage checkpoint	13	3	0.75	0.03594
+GO:0044819	mitotic G1/S transition checkpoint	13	3	0.75	0.03594
+GO:0046635	positive regulation of alpha-beta T cell activation	13	3	0.75	0.03594
+GO:0050830	defense response to Gram-positive bacterium	13	3	0.75	0.03594
+GO:1901797	negative regulation of signal transduction by p53 class mediator	13	3	0.75	0.03594
+GO:1990182	exosomal secretion	13	3	0.75	0.03594
+GO:0019725	cellular homeostasis	340	28	19.73	0.03792
+GO:0035150	regulation of tube size	55	7	3.19	0.03862
+GO:0050880	regulation of blood vessel size	55	7	3.19	0.03862
+GO:0070665	positive regulation of leukocyte proliferation	33	5	1.92	0.03990
+GO:0010324	membrane invagination	23	4	1.34	0.04123
+GO:0034381	plasma lipoprotein particle clearance	14	3	0.81	0.04383
+GO:0031333	negative regulation of protein complex assembly	69	8	4.01	0.04543
+GO:0031648	protein destabilization	24	4	1.39	0.04729
+GO:0035272	exocrine system development	24	4	1.39	0.04729
+GO:0050885	neuromuscular process controlling balance	46	6	2.67	0.04844
+GO:0031398	positive regulation of protein ubiquitination	70	8	4.06	0.04881
+GO:0046651	lymphocyte proliferation	70	8	4.06	0.04881
+GO:0008015	blood circulation	162	15	9.4	0.04890
+GO:0003013	circulatory system process	163	15	9.46	0.05112
+GO:0032968	positive regulation of transcription elongation from RNA polymerase II promoter	15	3	0.87	0.05249
+GO:0045582	positive regulation of T cell differentiation	15	3	0.87	0.05249
+GO:0051894	positive regulation of focal adhesion assembly	15	3	0.87	0.05249
+GO:0071825	protein-lipid complex subunit organization	15	3	0.87	0.05249
+GO:2000209	regulation of anoikis	15	3	0.87	0.05249
+GO:0006664	glycolipid metabolic process	47	6	2.73	0.05293
+GO:1903509	liposaccharide metabolic process	47	6	2.73	0.05293
+GO:0030490	maturation of SSU-rRNA	25	4	1.45	0.05381
+GO:0051384	response to glucocorticoid	25	4	1.45	0.05381
+GO:2001021	negative regulation of response to DNA damage stimulus	25	4	1.45	0.05381
+GO:0032101	regulation of response to external stimulus	337	27	19.56	0.05436
+GO:1901992	positive regulation of mitotic cell cycle phase transition	36	5	2.09	0.05507
+GO:0032943	mononuclear cell proliferation	72	8	4.18	0.05605
+GO:0006952	defense response	368	29	21.36	0.05643
+GO:0001701	in utero embryonic development	222	19	12.89	0.05715
+GO:0022409	positive regulation of cell-cell adhesion	60	7	3.48	0.05757
+GO:0034250	positive regulation of cellular amide metabolic process	60	7	3.48	0.05757
+GO:0031589	cell-substrate adhesion	139	13	8.07	0.05974
+GO:0006954	inflammatory response	153	14	8.88	0.06042
+GO:0046486	glycerolipid metabolic process	153	14	8.88	0.06042
+GO:0051258	protein polymerization	153	14	8.88	0.06042
+GO:0031347	regulation of defense response	181	16	10.51	0.06067
+GO:0006939	smooth muscle contraction	37	5	2.15	0.06078
+GO:0045446	endothelial cell differentiation	37	5	2.15	0.06078
+GO:1901989	positive regulation of cell cycle phase transition	37	5	2.15	0.06078
+GO:0001676	long-chain fatty acid metabolic process	26	4	1.51	0.06080
+GO:0002526	acute inflammatory response	26	4	1.51	0.06080
+GO:0006959	humoral immune response	26	4	1.51	0.06080
+GO:0015918	sterol transport	26	4	1.51	0.06080
+GO:0030301	cholesterol transport	26	4	1.51	0.06080
+GO:0031960	response to corticosteroid	26	4	1.51	0.06080
+GO:0044773	mitotic DNA damage checkpoint	26	4	1.51	0.06080
+GO:0010883	regulation of lipid storage	16	3	0.93	0.06191
+GO:0043276	anoikis	16	3	0.93	0.06191
+GO:0046755	viral budding	16	3	0.93	0.06191
+GO:1902590	multi-organism organelle organization	16	3	0.93	0.06191
+GO:1902592	multi-organism membrane budding	16	3	0.93	0.06191
+GO:1903393	positive regulation of adherens junction organization	16	3	0.93	0.06191
+GO:0031348	negative regulation of defense response	49	6	2.84	0.06264
+GO:0042254	ribosome biogenesis	154	14	8.94	0.06311
+GO:0032102	negative regulation of response to external stimulus	100	10	5.8	0.06404
+GO:0007159	leukocyte cell-cell adhesion	141	13	8.18	0.06545
+GO:0002684	positive regulation of immune system process	226	19	13.12	0.06592
+GO:1903034	regulation of response to wounding	128	12	7.43	0.06766
+GO:1901796	regulation of signal transduction by p53 class mediator	27	4	1.57	0.06824
+GO:0048284	organelle fusion	88	9	5.11	0.06832
+GO:0051726	regulation of cell cycle	421	32	24.44	0.06944
+GO:0002367	cytokine production involved in immune response	17	3	0.99	0.07206
+GO:0002673	regulation of acute inflammatory response	17	3	0.99	0.07206
+GO:0021545	cranial nerve development	17	3	0.99	0.07206
+GO:0044803	multi-organism membrane organization	17	3	0.99	0.07206
+GO:0048662	negative regulation of smooth muscle cell proliferation	17	3	0.99	0.07206
+GO:0055081	anion homeostasis	17	3	0.99	0.07206
+GO:1901890	positive regulation of cell junction assembly	17	3	0.99	0.07206
+GO:0046916	cellular transition metal ion homeostasis	39	5	2.26	0.07315
+GO:0045727	positive regulation of translation	51	6	2.96	0.07334
+GO:2001237	negative regulation of extrinsic apoptotic signaling pathway	51	6	2.96	0.07334
+GO:0055082	cellular chemical homeostasis	274	22	15.9	0.07552
+GO:0031111	negative regulation of microtubule polymerization or depolymerization	28	4	1.63	0.07613
+GO:0042632	cholesterol homeostasis	28	4	1.63	0.07613
+GO:0044774	mitotic DNA integrity checkpoint	28	4	1.63	0.07613
+GO:0055092	sterol homeostasis	28	4	1.63	0.07613
+GO:0006665	sphingolipid metabolic process	64	7	3.71	0.07625
+GO:0044801	single-organism membrane fusion	90	9	5.22	0.07645
+GO:0070661	leukocyte proliferation	77	8	4.47	0.07701
+GO:0097164	ammonium ion metabolic process	77	8	4.47	0.07701
+GO:2001234	negative regulation of apoptotic signaling pathway	131	12	7.6	0.07762
+GO:0009611	response to wounding	231	19	13.41	0.07813
+GO:2000377	regulation of reactive oxygen species metabolic process	65	7	3.77	0.08141
+GO:0098656	anion transmembrane transport	78	8	4.53	0.08170
+GO:0000462	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	18	3	1.04	0.08289
+GO:0045621	positive regulation of lymphocyte differentiation	18	3	1.04	0.08289
+GO:0045736	negative regulation of cyclin-dependent protein serine/threonine kinase activity	18	3	1.04	0.08289
+GO:0051057	positive regulation of small GTPase mediated signal transduction	18	3	1.04	0.08289
+GO:1900087	positive regulation of G1/S transition of mitotic cell cycle	18	3	1.04	0.08289
+GO:0006364	rRNA processing	105	10	6.09	0.08301
+GO:0045786	negative regulation of cell cycle	175	15	10.16	0.08336
+GO:0003158	endothelium development	41	5	2.38	0.08679
+GO:0042110	T cell activation	134	12	7.78	0.08848
+GO:0044403	symbiosis, encompassing mutualism through parasitism	134	12	7.78	0.08848
+GO:0044419	interspecies interaction between organisms	134	12	7.78	0.08848
+GO:0070489	T cell aggregation	134	12	7.78	0.08848
+GO:0071593	lymphocyte aggregation	134	12	7.78	0.08848
+GO:0007160	cell-matrix adhesion	93	9	5.4	0.08970
+GO:0001824	blastocyst development	54	6	3.13	0.09122
+GO:1903322	positive regulation of protein modification by small protein conjugation or removal	80	8	4.64	0.09157
+GO:0016525	negative regulation of angiogenesis	30	4	1.74	0.09320
+GO:0045580	regulation of T cell differentiation	30	4	1.74	0.09320
+GO:0051893	regulation of focal adhesion assembly	30	4	1.74	0.09320
+GO:0070534	protein K63-linked ubiquitination	30	4	1.74	0.09320
+GO:0090109	regulation of cell-substrate junction assembly	30	4	1.74	0.09320
+GO:0006261	DNA-dependent DNA replication	42	5	2.44	0.09408

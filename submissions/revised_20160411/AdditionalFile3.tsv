@@ -1,0 +1,201 @@
+GO.ID	Term	Annotated	Significant	Expected	Fisher.classic
+GO:0043412	macromolecule modification	1826	300	237.06	7.7e-07
+GO:0006355	regulation of transcription, DNA-templated	1456	244	189.02	2.7e-06
+GO:1903506	regulation of nucleic acid-templated transcription	1463	244	189.93	4.0e-06
+GO:0006464	cellular protein modification process	1767	287	229.4	4.3e-06
+GO:0036211	protein modification process	1767	287	229.4	4.3e-06
+GO:2001141	regulation of RNA biosynthetic process	1467	244	190.45	4.9e-06
+GO:0010468	regulation of gene expression	1809	291	234.85	8.3e-06
+GO:0051252	regulation of RNA metabolic process	1540	253	199.93	8.3e-06
+GO:0032259	methylation	172	43	22.33	1.2e-05
+GO:0006351	transcription, DNA-templated	1508	247	195.77	1.4e-05
+GO:2000112	regulation of cellular macromolecule biosynthetic process	1650	267	214.21	1.5e-05
+GO:0032774	RNA biosynthetic process	1522	248	197.59	2.0e-05
+GO:0097659	nucleic acid-templated transcription	1515	247	196.68	2.0e-05
+GO:0043414	macromolecule methylation	136	35	17.66	4.0e-05
+GO:0016569	covalent chromatin modification	262	57	34.01	4.4e-05
+GO:0070647	protein modification by small protein conjugation or removal	466	90	60.5	4.6e-05
+GO:0010556	regulation of macromolecule biosynthetic process	1689	269	219.27	4.6e-05
+GO:0016570	histone modification	258	56	33.49	5.5e-05
+GO:0016070	RNA metabolic process	1992	310	258.61	6.6e-05
+GO:1902589	single-organism organelle organization	1332	217	172.92	7.8e-05
+GO:0016567	protein ubiquitination	360	72	46.74	8.7e-05
+GO:0010629	negative regulation of gene expression	717	127	93.08	9.2e-05
+GO:0018130	heterocycle biosynthetic process	1719	271	223.16	9.2e-05
+GO:0019219	regulation of nucleobase-containing compound metabolic process	1677	265	217.71	9.6e-05
+GO:0034654	nucleobase-containing compound biosynthetic process	1685	265	218.75	0.00014
+GO:0031326	regulation of cellular biosynthetic process	1753	274	227.58	0.00016
+GO:0006996	organelle organization	1873	290	243.16	0.00019
+GO:0090304	nucleic acid metabolic process	2194	334	284.83	0.00019
+GO:0016568	chromatin modification	377	73	48.94	0.00022
+GO:0080090	regulation of primary metabolic process	2509	376	325.72	0.00024
+GO:0019438	aromatic compound biosynthetic process	1720	268	223.29	0.00024
+GO:0060255	regulation of macromolecule metabolic process	2511	376	325.98	0.00025
+GO:0051276	chromosome organization	527	96	68.42	0.00025
+GO:0009889	regulation of biosynthetic process	1780	276	231.08	0.00026
+GO:1901362	organic cyclic compound biosynthetic process	1768	274	229.53	0.00029
+GO:0051171	regulation of nitrogen compound metabolic process	1826	282	237.06	0.00029
+GO:0019222	regulation of metabolic process	2855	421	370.64	0.00034
+GO:0032446	protein modification by small protein conjugation	383	73	49.72	0.00037
+GO:0006325	chromatin organization	409	77	53.1	0.00038
+GO:0048285	organelle fission	259	53	33.62	0.00041
+GO:0043170	macromolecule metabolic process	4016	573	521.37	0.00044
+GO:0031323	regulation of cellular metabolic process	2557	380	331.95	0.00044
+GO:0032925	regulation of activin receptor signaling pathway	13	7	1.69	0.00051
+GO:0006305	DNA alkylation	29	11	3.76	0.00062
+GO:0006306	DNA methylation	29	11	3.76	0.00062
+GO:0006479	protein methylation	99	25	12.85	0.00066
+GO:0008213	protein alkylation	99	25	12.85	0.00066
+GO:0009892	negative regulation of metabolic process	1210	193	157.08	0.00068
+GO:0010467	gene expression	2422	360	314.43	0.00069
+GO:0006139	nucleobase-containing compound metabolic process	2469	366	320.53	0.00075
+GO:0050680	negative regulation of epithelial cell proliferation	63	18	8.18	0.00079
+GO:0006511	ubiquitin-dependent protein catabolic process	363	68	47.13	0.00094
+GO:0044260	cellular macromolecule metabolic process	3800	541	493.32	0.00105
+GO:0046483	heterocycle metabolic process	2522	371	327.41	0.00123
+GO:0019941	modification-dependent protein catabolic process	367	68	47.64	0.00127
+GO:0010605	negative regulation of macromolecule metabolic process	1086	173	140.99	0.00142
+GO:0051603	proteolysis involved in cellular protein catabolic process	409	74	53.1	0.00155
+GO:0018205	peptidyl-lysine modification	193	40	25.06	0.00158
+GO:0051253	negative regulation of RNA metabolic process	598	102	77.63	0.00176
+GO:0022402	cell cycle process	532	92	69.07	0.00192
+GO:0043632	modification-dependent macromolecule catabolic process	373	68	48.42	0.00195
+GO:0031329	regulation of cellular catabolic process	341	63	44.27	0.00203
+GO:0044267	cellular protein metabolic process	2368	348	307.42	0.00207
+GO:0000280	nuclear division	233	46	30.25	0.00210
+GO:0044728	DNA methylation or demethylation	33	11	4.28	0.00213
+GO:0007127	meiosis I	24	9	3.12	0.00213
+GO:0045892	negative regulation of transcription, DNA-templated	549	94	71.27	0.00235
+GO:0010927	cellular component assembly involved in morphogenesis	125	28	16.23	0.00238
+GO:0060271	cilium morphogenesis	102	24	13.24	0.00239
+GO:1902679	negative regulation of RNA biosynthetic process	563	96	73.09	0.00241
+GO:0050678	regulation of epithelial cell proliferation	131	29	17.01	0.00242
+GO:0019538	protein metabolic process	2583	376	335.33	0.00251
+GO:0016571	histone methylation	80	20	10.39	0.00251
+GO:1903507	negative regulation of nucleic acid-templated transcription	557	95	72.31	0.00252
+GO:0006725	cellular aromatic compound metabolic process	2532	369	328.71	0.00260
+GO:0006508	proteolysis	730	120	94.77	0.00275
+GO:0044271	cellular nitrogen compound biosynthetic process	2074	307	269.25	0.00275
+GO:0033365	protein localization to organelle	418	74	54.27	0.00282
+GO:0031324	negative regulation of cellular metabolic process	1089	171	141.38	0.00289
+GO:0034645	cellular macromolecule biosynthetic process	2110	311	273.92	0.00335
+GO:0008589	regulation of smoothened signaling pathway	21	8	2.73	0.00335
+GO:0006304	DNA modification	35	11	4.54	0.00359
+GO:0051445	regulation of meiotic cell cycle	13	6	1.69	0.00359
+GO:0032924	activin receptor signaling pathway	17	7	2.21	0.00363
+GO:0007050	cell cycle arrest	66	17	8.57	0.00369
+GO:0006357	regulation of transcription from RNA polymerase II promoter	848	136	110.09	0.00372
+GO:0072594	establishment of protein localization to organelle	291	54	37.78	0.00374
+GO:0006473	protein acetylation	117	26	15.19	0.00374
+GO:0009894	regulation of catabolic process	416	73	54.01	0.00377
+GO:0044782	cilium organization	94	22	12.2	0.00381
+GO:0044257	cellular protein catabolic process	425	74	55.17	0.00434
+GO:0051321	meiotic cell cycle	67	17	8.7	0.00436
+GO:0032088	negative regulation of NF-kappaB transcription factor activity	31	10	4.02	0.00439
+GO:0006475	internal protein amino acid acetylation	101	23	13.11	0.00450
+GO:0048515	spermatid differentiation	46	13	5.97	0.00453
+GO:0007283	spermatogenesis	143	30	18.56	0.00479
+GO:0048232	male gamete generation	143	30	18.56	0.00479
+GO:0031056	regulation of histone modification	79	19	10.26	0.00504
+GO:0010498	proteasomal protein catabolic process	302	55	39.21	0.00518
+GO:0044702	single organism reproductive process	348	62	45.18	0.00518
+GO:0014808	release of sequestered calcium ion into cytosol by sarcoplasmic reticulum	10	5	1.3	0.00523
+GO:0018216	peptidyl-arginine methylation	10	5	1.3	0.00523
+GO:0060343	trabecula formation	10	5	1.3	0.00523
+GO:0070192	chromosome organization involved in meiosis	10	5	1.3	0.00523
+GO:0070734	histone H3-K27 methylation	10	5	1.3	0.00523
+GO:1903514	calcium ion transport from endoplasmic reticulum to cytosol	10	5	1.3	0.00523
+GO:0042384	cilium assembly	85	20	11.03	0.00530
+GO:0006366	transcription from RNA polymerase II promoter	885	140	114.89	0.00541
+GO:1902275	regulation of chromatin organization	91	21	11.81	0.00551
+GO:0009799	specification of symmetry	47	13	6.1	0.00553
+GO:0009855	determination of bilateral symmetry	47	13	6.1	0.00553
+GO:0002204	somatic recombination of immunoglobulin genes involved in immune response	14	6	1.82	0.00561
+GO:0002208	somatic diversification of immunoglobulins involved in immune response	14	6	1.82	0.00561
+GO:0035058	nonmotile primary cilium assembly	14	6	1.82	0.00561
+GO:0045190	isotype switching	14	6	1.82	0.00561
+GO:0040029	regulation of gene expression, epigenetic	109	24	14.15	0.00590
+GO:1901360	organic cyclic compound metabolic process	2612	375	339.1	0.00677
+GO:0051172	negative regulation of nitrogen compound metabolic process	722	116	93.73	0.00686
+GO:1903308	regulation of chromatin modification	87	20	11.29	0.00696
+GO:0007030	Golgi organization	70	17	9.09	0.00699
+GO:0018193	peptidyl-amino acid modification	536	89	69.58	0.00723
+GO:0018393	internal peptidyl-lysine acetylation	99	22	12.85	0.00731
+GO:2000113	negative regulation of cellular macromolecule biosynthetic process	633	103	82.18	0.00736
+GO:0051646	mitochondrion localization	19	7	2.47	0.00744
+GO:0071704	organic substance metabolic process	4672	644	606.53	0.00764
+GO:0032504	multicellular organism reproduction	249	46	32.33	0.00772
+GO:0031497	chromatin assembly	49	13	6.36	0.00807
+GO:0009059	macromolecule biosynthetic process	2157	313	280.03	0.00833
+GO:0002381	immunoglobulin production involved in immunoglobulin mediated immune response	15	6	1.95	0.00833
+GO:0045132	meiotic chromosome segregation	15	6	1.95	0.00833
+GO:0046907	intracellular transport	967	150	125.54	0.00833
+GO:0010506	regulation of autophagy	112	24	14.54	0.00837
+GO:0010633	negative regulation of epithelial cell migration	24	8	3.12	0.00849
+GO:0042073	intraciliary transport	24	8	3.12	0.00849
+GO:0007049	cell cycle	741	118	96.2	0.00850
+GO:0007286	spermatid development	44	12	5.71	0.00851
+GO:0000959	mitochondrial RNA metabolic process	11	5	1.43	0.00858
+GO:0018195	peptidyl-arginine modification	11	5	1.43	0.00858
+GO:0050673	epithelial cell proliferation	155	31	20.12	0.00861
+GO:2001252	positive regulation of chromosome organization	66	16	8.57	0.00889
+GO:0031327	negative regulation of cellular biosynthetic process	686	110	89.06	0.00890
+GO:0045934	negative regulation of nucleobase-containing compound metabolic process	652	105	84.64	0.00927
+GO:0045786	negative regulation of cell cycle	175	34	22.72	0.00962
+GO:0007126	meiotic nuclear division	50	13	6.49	0.00964
+GO:0061136	regulation of proteasomal protein catabolic process	150	30	19.47	0.00965
+GO:0016579	protein deubiquitination	78	18	10.13	0.00975
+GO:0048609	multicellular organismal reproductive process	246	45	31.94	0.00996
+GO:1903050	regulation of proteolysis involved in cellular protein catabolic process	163	32	21.16	0.01013
+GO:0033044	regulation of chromosome organization	132	27	17.14	0.01015
+GO:1902582	single-organism intracellular transport	838	131	108.79	0.01050
+GO:0034641	cellular nitrogen compound metabolic process	2871	407	372.72	0.01063
+GO:0007368	determination of left/right symmetry	40	11	5.19	0.01082
+GO:0043543	protein acylation	139	28	18.05	0.01102
+GO:0001578	microtubule bundle formation	25	8	3.25	0.01109
+GO:0000122	negative regulation of transcription from RNA polymerase II promoter	374	64	48.55	0.01122
+GO:0016482	cytoplasmic transport	580	94	75.3	0.01139
+GO:0010596	negative regulation of endothelial cell migration	16	6	2.08	0.01189
+GO:0016572	histone phosphorylation	16	6	2.08	0.01189
+GO:1903047	mitotic cell cycle process	342	59	44.4	0.01235
+GO:0044238	primary metabolic process	4516	621	586.28	0.01269
+GO:0044265	cellular macromolecule catabolic process	534	87	69.32	0.01283
+GO:0018394	peptidyl-lysine acetylation	104	22	13.5	0.01308
+GO:0010558	negative regulation of macromolecule biosynthetic process	660	105	85.68	0.01309
+GO:0010659	cardiac muscle cell apoptotic process	12	5	1.56	0.01316
+GO:0070296	sarcoplasmic reticulum calcium ion transport	12	5	1.56	0.01316
+GO:0044237	cellular metabolic process	4603	632	597.57	0.01317
+GO:0051246	regulation of protein metabolic process	1225	184	159.03	0.01318
+GO:1903046	meiotic cell cycle process	52	13	6.75	0.01349
+GO:0002312	B cell activation involved in immune response	21	7	2.73	0.01360
+GO:0000278	mitotic cell cycle	398	67	51.67	0.01375
+GO:0051865	protein autoubiquitination	36	10	4.67	0.01378
+GO:0044249	cellular biosynthetic process	2536	361	329.23	0.01390
+GO:0006807	nitrogen compound metabolic process	2983	420	387.26	0.01461
+GO:0070646	protein modification by small protein removal	93	20	12.07	0.01465
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	278	49	36.09	0.01466
+GO:0048523	negative regulation of cellular process	1956	283	253.93	0.01473
+GO:0009890	negative regulation of biosynthetic process	699	110	90.75	0.01530
+GO:0003006	developmental process involved in reproduction	226	41	29.34	0.01539
+GO:0008152	metabolic process	5079	692	659.37	0.01595
+GO:0007276	gamete generation	194	36	25.19	0.01597
+GO:0022412	cellular process involved in reproduction in multicellular organism	100	21	12.98	0.01635
+GO:0000018	regulation of DNA recombination	17	6	2.21	0.01640
+GO:0021532	neural tube patterning	17	6	2.21	0.01640
+GO:0042026	protein refolding	17	6	2.21	0.01640
+GO:0031058	positive regulation of histone modification	48	12	6.23	0.01726
+GO:0031396	regulation of protein ubiquitination	119	24	15.45	0.01745
+GO:0007018	microtubule-based movement	113	23	14.67	0.01775
+GO:0060612	adipose tissue development	22	7	2.86	0.01776
+GO:0006605	protein targeting	335	57	43.49	0.01794
+GO:0050000	chromosome localization	27	8	3.51	0.01799
+GO:0051303	establishment of chromosome localization	27	8	3.51	0.01799
+GO:0016573	histone acetylation	95	20	12.33	0.01834
+GO:0008285	negative regulation of cell proliferation	255	45	33.1	0.01841
+GO:0048519	negative regulation of biological process	2085	299	270.68	0.01890
+GO:0032268	regulation of cellular protein metabolic process	1135	170	147.35	0.01890
+GO:0007257	activation of JUN kinase activity	13	5	1.69	0.01914
+GO:0010658	striated muscle cell apoptotic process	13	5	1.69	0.01914
+GO:0007017	microtubule-based process	330	56	42.84	0.01980
+GO:0007067	mitotic nuclear division	197	36	25.57	0.01997
+GO:1903320	regulation of protein modification by small protein conjugation or removal	133	26	17.27	0.02013
